@@ -12,11 +12,11 @@ Server
 
 Debian / Ubuntu:
 
-    apt-get install git && git clone https://github.com/walbp/shadowsocksr.git
+    apt-get install -y git && git clone https://github.com/walbp/shadowsocksr.git
 
 CentOS:
 
-    yum install git && git clone https://github.com/walbp/shadowsocksr.git
+    yum install git -y && git clone https://github.com/walbp/shadowsocksr.git
 
 Windows:
 

@@ -33,7 +33,7 @@ move to "~/shadowsocksr", then run:
 
 move to "~/shadowsocksr/shadowsocks", then run:
 
-    python server.py -p 443 -k password -m aes-128-cfb -O auth_aes128_md5 -o tls1.2_ticket_auth_compatible
+    python server.py -p 443 -k password -m aes-256-cfb -O auth_sha1_v4 -o http_simple_compatible
 
 Check all the options via `-h`.
 

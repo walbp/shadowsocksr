@@ -51,6 +51,16 @@ To monitor the log:
 
     ./tail.sh
 
+Auto run：
+/bin/bash /root/shadowsocksr/shadowsocks/logrun.sh
+
+Cent OS：
+chmod +x /etc/rc.d/rc.local
+vi /etc/rc.d/rc.local
+
+Ubuntu/Debian：
+chmod +x /etc/rc.local
+vi /etc/rc.local
 
 Client
 ------
